@@ -6,8 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="./scripts/Main.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <header>
+      <h1>Oskar!</h1>
+    </header>
+    <section>
+      <div class="slideshow-c">
+        <h1 class="Title">Artwork</h1>
+        <h3 class="Sub-Title">Oskar's 3D renders, a portfolio.</h3>
+
+        <div class="slideS fade">
+          <p class="num">1 / 4</p>
+          <img
+            src="./res/img/MC-Land-Plains.png"
+            alt="Minecraft wallpaper"
+            style="width: 100%"
+            class="active"
+          />
+          <p class="text">Minecraft</p>
+        </div>
+        <div class="slideS fade">
+          <p class="num">2 / 4</p>
+          <img
+            src="./res/img/render-2 (2).png"
+            alt="Moon wallpaper"
+            style="width: 100%"
+          />
+          <p class="text">Moon</p>
+        </div>
+        <div class="slideS fade">
+          <p class="num">3 / 4</p>
+          <img
+            src="./res/img/Render-2 (3).png"
+            alt="KDA wallpaper"
+            style="width: 100%"
+          />
+          <p class="text">KDA</p>
+        </div>
+        <div class="slideS fade">
+          <p class="num">4 / 4</p>
+          <img
+            src="./res/img/Render2.png"
+            alt="iPhone wallpaper"
+            style="width: 100%"
+          />
+          <p class="text">iPhone</p>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dots-c">
+          <span class="dots" onclick="currentSlide(1)"></span>
+          <span class="dots" onclick="currentSlide(2)"></span>
+          <span class="dots" onclick="currentSlide(3)"></span>
+          <span class="dots" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+      <br />
+    </section>
   </body>
 </html>
