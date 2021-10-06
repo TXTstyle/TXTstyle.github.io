@@ -12,7 +12,7 @@ body {
 }
 
 /*
-Scrollbar
+  Scrollbar
 */
 
 ::-webkit-scrollbar {
@@ -33,7 +33,7 @@ Scrollbar
 }
 
 /*
-Slideshow
+  Slideshow
 */
 
 .Title {
@@ -70,6 +70,11 @@ Slideshow
   left: 12%;
   color: whitesmoke;
   z-index: 1;
+}
+
+.TitleCon:hover {
+  background-color: #ca6981f0;
+  cursor: pointer;
 }
 
 .slideshow-c {
@@ -191,7 +196,7 @@ Slideshow
 }
 
 /*
-Header
+  Header
 */
 
 .HeaderBox {
@@ -199,10 +204,11 @@ Header
   flex-direction: row;
   align-content: center;
   justify-content: flex-end;
-  gap: 1em;
+  gap: 1vw;
   padding-top: 1em;
-  padding-right: 2em;
+  padding-right: 2vw;
   font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
 }
 
 #HeaderCon {
@@ -212,14 +218,33 @@ Header
   padding: 1em 1.5em;
   font-weight: bold;
 }
-#HeaderAGA {
+
+#HeaderCon:hover {
+  cursor: pointer;
+  background-color: #ca6981f0;
+}
+
+.HeaderAGA {
   background-color: #20253421;
   border-radius: 1em;
-  padding: 1em 2.25em 1em 2.25em;
-
+  padding: 0;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: flex-end;
-  gap: 1.75em;
+  gap: 0.5vw;
 }
+
+.HeaderAGA h4 {
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.HeaderAGA h4:hover {
+  background-color: #20253410;
+  cursor: pointer;
+}
+
+/*
+  A Little About Me.
+*/
