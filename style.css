@@ -251,6 +251,7 @@ body {
 
 .AboutSec {
   position: relative;
+  margin-bottom: 30em;
 }
 
 .AboutTitle {
@@ -311,4 +312,49 @@ body {
   width: 400px;
   height: 500px;
   border-radius: 10px;
+}
+
+/*
+  Gallery
+*/
+
+.GallerySec {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  gap: 5em;
+  margin-bottom: 5em;
+}
+
+.GalleryTitle {
+  text-align: left;
+  width: 80%;
+  font-size: 72px;
+  margin-left: 20%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.GalleryBox {
+  width: 80%;
+  height: 40em;
+  background-color: green;
+  border-radius: 1em;
+}
+
+#GalleryButton {
+  background-color: #ca698137;
+  padding: 1em;
+  border-radius: 0.6em;
+  padding: 0.5em;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 28px;
+  border-radius: 0.4em;
+}
+
+#GalleryButton:hover {
+  background-color: #ca6981af;
+  cursor: pointer;
 }
