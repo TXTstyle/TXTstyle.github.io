@@ -338,9 +338,17 @@ body {
 }
 
 .GalleryBox {
-  width: 80%;
+  width: 85%;
   height: 40em;
-  background-color: green;
+  position: relative;
+  display: inline-block;
+}
+
+.GalleryImg {
+  -webkit-mask-image: linear-gradient(to top, transparent 5%, black 55%);
+  mask-image: linear-gradient(to top, transparent 5%, black 55%);
+  height: 100%;
+  width: 100%;
   border-radius: 1em;
 }
 

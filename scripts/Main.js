@@ -38,3 +38,7 @@ function SlideTime() {
   showSlides(slideIndex);
   setTimeout(SlideTime, 10000);
 }
+
+function OpenLink(n) {
+  window.open("./" + n + ".html", "_self");
+}
