@@ -42,3 +42,6 @@ function SlideTime() {
 function OpenLink(n) {
   window.open("./" + n + ".html", "_self");
 }
+function OpenSite(n) {
+  window.open("https://" + n, "_self");
+}

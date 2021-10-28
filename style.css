@@ -366,3 +366,88 @@ body {
   background-color: #ca6981af;
   cursor: pointer;
 }
+
+/*
+  About Me..
+*/
+
+.AboutMe {
+  margin-top: 3em;
+}
+
+.AboutMe h1 {
+  font-size: 96px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 25%;
+  position: relative;
+}
+
+.AboutMe p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  max-width: 40%;
+}
+
+.AboutMeP1 {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.AboutMeP2 {
+  text-align: right;
+  position: absolute;
+  right: 10%;
+  margin-top: 3%;
+}
+
+.SocialSec {
+  position: relative;
+  margin-top: 20%;
+}
+
+.ContactB {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5vw;
+  background-color: #ca69815a;
+  border-radius: 0.7em;
+  padding: 0.55em 1.25em;
+  position: absolute;
+  top: 16%;
+  left: 15%;
+  color: whitesmoke;
+  z-index: 1;
+}
+
+.ContactB:hover {
+  background-color: #ca6981f0;
+  cursor: pointer;
+}
+
+.SocialList {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2vw;
+  background-color: #2025345a;
+  border-radius: 0.7em;
+  padding: 0.55em 1.25em;
+  position: absolute;
+  margin-top: 10%;
+  right: 15%;
+  color: whitesmoke;
+  text-decoration: none;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SocialList li {
+  z-index: 1;
+  background-color: gray;
+  border-radius: 0.7em;
+  list-style-type: none;
+  padding: 5px;
+}
+.SocialList li img {
+  width: 100px;
+}
