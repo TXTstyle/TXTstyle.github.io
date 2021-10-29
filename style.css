@@ -198,6 +198,25 @@ body {
 /*
   Header
 */
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  height: 4em;
+  border-radius: 12px;
+  margin-left: 2vw;
+  margin-top: 1em;
+}
+
+.Logo:hover {
+  filter: brightness(85%);
+}
 
 .HeaderBox {
   display: flex;
@@ -403,6 +422,7 @@ body {
 .SocialSec {
   position: relative;
   margin-top: 20%;
+  padding-bottom: 20em;
 }
 
 .ContactB {
@@ -413,7 +433,7 @@ body {
   border-radius: 0.7em;
   padding: 0.55em 1.25em;
   position: absolute;
-  top: 16%;
+  top: 15%;
   left: 15%;
   color: whitesmoke;
   z-index: 1;
@@ -430,13 +450,13 @@ body {
   font-size: 2vw;
   background-color: #2025345a;
   border-radius: 0.7em;
-  padding: 0.55em 1.25em;
+  padding: 0.5em 1em;
   position: absolute;
   margin-top: 10%;
-  right: 15%;
+  right: 18%;
   color: whitesmoke;
   text-decoration: none;
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -449,5 +469,5 @@ body {
   padding: 5px;
 }
 .SocialList li img {
-  width: 100px;
+  width: 72px;
 }
