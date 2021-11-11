@@ -62,7 +62,7 @@ body {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
   font-size: 1.5vw;
-  background-color: #ca69815a;
+  background-color: #ca698186;
   border-radius: 0.75em;
   padding: 0.55em 1.25em;
   position: absolute;
@@ -231,7 +231,7 @@ header {
 }
 
 #HeaderCon {
-  background-color: #ca698150;
+  background-color: #ca6981d5;
   color: #fff;
   border-radius: 1em;
   padding: 1em 1.5em;
@@ -470,4 +470,30 @@ header {
 }
 .SocialList li img {
   width: 72px;
+}
+
+/*
+  Contact Info
+*/
+
+.ContactSL {
+  left: 15%;
+}
+
+.Contact h1 {
+  margin-left: 10%;
+}
+
+.ContactInfo ul {
+  position: relative;
+  top: 10em;
+  left: 15%;
+  font-size: 32px;
+}
+
+.ContactInfo li {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.8em;
 }
