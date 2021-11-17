@@ -45,3 +45,32 @@ function OpenLink(n) {
 function OpenSite(n) {
   window.open("https://" + n, "_self");
 }
+
+function Sort(n) {
+  let ImgList = document.querySelectorAll(".Item");
+
+  if (n == 0) {
+    for (let index = 0; index < ImgList.length; index++) {
+      ImgList[index].style.display = "block";
+    }
+  }
+  if (n == 2017) {
+    for (let index = 0; index < ImgList.length; index++) {
+      if (ImgList[index].id == "y2017") {
+        ImgList[index].style.display = "none";
+      } else {
+        ImgList[index].style.display = "block";
+      }
+    }
+  }
+
+  if (n == 2018) {
+    for (let index = 0; index < ImgList.length; index++) {
+      if (ImgList[index].id == "y2018") {
+        ImgList[index].style.display = "none";
+      } else {
+        ImgList[index].style.display = "block";
+      }
+    }
+  }
+}
