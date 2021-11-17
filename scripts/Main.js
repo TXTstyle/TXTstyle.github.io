@@ -47,16 +47,15 @@ function OpenSite(n) {
 }
 
 function Sort(n) {
-  let ImgList = document.querySelectorAll(".Item");
-
+  let ImgList = document.querySelectorAll(".item");
   if (n == 0) {
     for (let index = 0; index < ImgList.length; index++) {
       ImgList[index].style.display = "block";
     }
   }
-  if (n == 2017) {
+  if (n == 2019) {
     for (let index = 0; index < ImgList.length; index++) {
-      if (ImgList[index].id == "y2017") {
+      if (ImgList[index].id != "y2019") {
         ImgList[index].style.display = "none";
       } else {
         ImgList[index].style.display = "block";
@@ -64,9 +63,19 @@ function Sort(n) {
     }
   }
 
-  if (n == 2018) {
+  if (n == 2020) {
     for (let index = 0; index < ImgList.length; index++) {
-      if (ImgList[index].id == "y2018") {
+      if (ImgList[index].id != "y2020") {
+        ImgList[index].style.display = "none";
+      } else {
+        ImgList[index].style.display = "block";
+      }
+    }
+  }
+
+  if (n == 2021) {
+    for (let index = 0; index < ImgList.length; index++) {
+      if (ImgList[index].id != "y2021") {
         ImgList[index].style.display = "none";
       } else {
         ImgList[index].style.display = "block";
