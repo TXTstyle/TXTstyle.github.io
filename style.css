@@ -357,8 +357,8 @@ header {
 }
 
 .GalleryBox {
-  width: 85%;
-  height: 40em;
+  max-width: 85%;
+  height: 45em;
   position: relative;
   display: inline-block;
 }
