@@ -328,8 +328,7 @@ header {
   position: absolute;
   top: 65%;
   left: 60%;
-  width: 400px;
-  height: 500px;
+  max-width: 15%;
   border-radius: 10px;
 }
 
@@ -442,6 +441,11 @@ header {
 .ContactB:hover {
   background-color: #ca6981f0;
   cursor: pointer;
+}
+
+.ConImg {
+  top: 33%;
+  right: 20%;
 }
 
 .SocialList {
