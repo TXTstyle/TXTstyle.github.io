@@ -517,7 +517,7 @@ header {
   font-weight: bold;
 }
 
-/* Style The Dropdown Button */
+
 .dropbtn {
   background-color: #a2a0c3;
   border-radius: 5px;
@@ -529,7 +529,7 @@ header {
   cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -540,7 +540,7 @@ header {
   right: 10%;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -551,7 +551,7 @@ header {
   right: 0;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content p {
   color: black;
   padding: 12px 16px;
@@ -561,18 +561,18 @@ header {
   font-family: "Ubuntu", sans-serif;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content p:hover {
   background-color: #f1f1f1;
   cursor: pointer;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown:hover .dropbtn {
   background-color: #a2a0c3;
 }
@@ -593,4 +593,59 @@ header {
 
 .GalleryFBox img:hover {
   height: 650px;
+}
+
+/*
+  Album
+*/
+
+.albumFlexBox {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 5em 0;
+}
+
+.Album {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-left: 2vw;
+}
+
+.aTitle {
+  height: 100%;
+  width: 12em;
+  height: 12em;
+  padding: 0,2em;
+  border-radius: 5px;
+  position: relative;
+}
+
+.aTitle img {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+}
+
+.aTitle img:hover {
+  cursor: pointer;
+  filter: brightness(65%);
+}
+
+.aFrame {
+  background-color: whitesmoke;
+  width: 80vw;
+  border-radius: 5px;
+}
+
+.aItem {
+  border-radius: 5px;
+  margin: 10px;
+  height: 320px;
+  transition: height 0.8s 0.2s;
+}
+
+.aItem:hover {
+  height: 350px;
 }

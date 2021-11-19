@@ -9,7 +9,7 @@
     <script defer src="./scripts/Main.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
-  <body>
+  <body onload="TitleLoad()">
     <header>
       <div>
         <img
@@ -28,5 +28,124 @@
         <h4 id="HeaderCon" onclick="OpenLink('contact')">Contact</h4>
       </div>
     </header>
+    <h1 class="GalleryTitleS">Gallery</h1>
+    <section class="albumFlexBox">
+      <div class="Album" id="A1">
+        <div class="aTitle">
+          <img src="res/img/cover/Foggy-cover.webp" alt="" onclick="First('#A1')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/Foggy-city-scene-studio.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Foggy-city-scene.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Foggy-film-scene_Final-studio.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Foggy-film-scene_Final.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render (4).webp" alt="" class="aItem">
+          <img src="res/img/gallery/render (3).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Glow-square.webp" alt="" class="aItem">
+        </div>
+      </div>
+
+      <div class="Album" id="A2">
+        <div class="aTitle">
+          <img src="res/img/gallery/Render1.webp" alt="" onclick="First('#A2')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/Render2 (2).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render1.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render3.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render4.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render (39).webp" alt="" class="aItem">
+        </div>
+      </div>
+      <div class="Album" id="A3">
+        <div class="aTitle">
+          <img src="res/img/cover/glass-cover.webp" alt="" onclick="First('#A3')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/Render-2 (5).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render (13).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-2 (5).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-21_9 (2).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-21_9.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-1440p.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-1440p-2.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-1440p-3.webp" alt="" class="aItem">
+          <img src="res/img/gallery/render-moblie.webp" alt="" class="aItem">
+          <img src="res/img/gallery/render-moblie-traa.webp" alt="" class="aItem">
+        </div>
+      </div>
+      <div class="Album open" id="A4">
+        <div class="aTitle">
+          <img src="res/img/cover/KDA-cover.webp" alt="" onclick="First('#A4')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/render_LuxCore (2).webp" alt="" class="aItem">
+          <img src="res/img/gallery/render_LuxCore.webp" alt="" class="aItem">
+          <img src="res/img/gallery/render+2.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-2 (3).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-cleanSlate.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-cleanSlate-cc.webp" alt="" class="aItem">
+        </div>
+      </div>
+
+      <div class="Album" id="A5">
+        <div class="aTitle">
+          <img src="res/img/cover/land-cover.webp" alt="" onclick="First('#A5')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/render (14).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-1h.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-1.5h.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-1.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-2 (6).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-3-lux.webp" alt="" class="aItem">
+          <img src="res/img/gallery/render_2 (2).webp" alt="" class="aItem">
+        </div>
+      </div>
+
+      <div class="Album open" id="A6">
+        <div class="aTitle">
+          <img src="res/img/cover/arch-cover.webp" alt="" onclick="First('#A6')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/render (5).webp" alt="" class="aItem">
+          <img src="res/img/gallery/render (6).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render (7).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render (8).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Blood-lilies_scene.webp" alt="" class="aItem">
+        </div>
+      </div>
+      <div class="Album open" id="A7">
+        <div class="aTitle">
+          <img src="res/img/cover/MC-cover.webp" alt="" onclick="First('#A7')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/MC-Land-Plains.webp" alt="" class="aItem">
+          <img src="res/img/gallery/MC-Land-Plains_night.webp" alt="" class="aItem">
+          <img src="res/img/gallery/MC-Land-Bioms.webp" alt="" class="aItem">
+        </div>
+      </div>
+      <div class="Album open" id="A8">
+        <div class="aTitle">
+          <img src="res/img/cover/ps-cover.webp" alt="" onclick="First('#A8')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/Render (11).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render-2 (4).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render_21-9.webp" alt="" class="aItem">
+        </div>
+      </div>
+      <div class="Album open" id="A9">
+        <div class="aTitle">
+          <img src="res/img/gallery/Album1.webp" alt="" onclick="First('#A9')">
+        </div>
+        <div class="aFrame">
+          <img src="res/img/gallery/Album1.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Render (2).webp" alt="" class="aItem">
+          <img src="res/img/gallery/Album-Render.webp" alt="" class="aItem">
+          <img src="res/img/gallery/Glass-shader.webp" alt="" class="aItem">
+        </div>
+      </div>
+    </section>
   </body>
 </html>

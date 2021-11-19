@@ -83,3 +83,31 @@ function Sort(n) {
     }
   }
 }
+
+function TitleLoad() {
+  First('#A2');
+  First('#A3');
+  First('#A4');
+  First('#A5');
+  First('#A6');
+  First('#A7');
+  First('#A8');
+  First('#A9');
+  
+}
+
+function First(n) {
+  let Album = document.querySelector(n);
+  let childs = Album.children;
+  if (Album.toggleAttribute("open")) {
+    for (let index = 1; index < childs.length; index++) {
+      childs[index].style.display = "none";
+    }
+    Album.classList.toggle("open");
+  } else {
+    for (let index = 1; index < childs.length; index++) {
+      childs[index].style.display = "block";
+    }
+    Album.classList.toggle("open");
+  }
+}
